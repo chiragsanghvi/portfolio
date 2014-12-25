@@ -567,3 +567,42 @@ a {
     float: left;
     display: block
 }
+
+.project_image {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  #home #projects_w .project_w {
+    background-size: 850px 600px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  #home #projects_w .project_w {
+    background-size: 750px 550px !important;
+  }
+}
+
+@media (max-width: 860px) {
+  #home #projects_w .project_w {
+    background: none !important;
+    height: 1000px;
+  }
+  
+  #home #projects_w .project_w .project_info_w {
+    width: 96%; 
+  }
+
+  .project_image {
+    display: block;
+    background-color: rgba(255,255,255,0.9);  border: 5px solid #fff;  border-top: none;  border-bottom: none;
+    padding: 30px 30px 50px;
+  }
+
+  .project_image img {
+    width: 100%;
+  }
+  
+}
+
