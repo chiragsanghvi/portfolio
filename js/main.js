@@ -266,7 +266,7 @@ jQuery(document).ready(function($) {
         },
         hoverEffect: function() {
 
-            // Simple parallax effect
+            /*// Simple parallax effect
             $('#portfoliolist .portfolio').hover(
                     function() {
                         $(this).find('.label').stop().animate({bottom: 0}, 200);
@@ -276,7 +276,7 @@ jQuery(document).ready(function($) {
                         $(this).find('.label').stop().animate({bottom: -40}, 200);
                         //$(this).find('img').stop().animate({top: 0}, 300);
                     }
-            );
+            );*/
 
         }
 
