@@ -2847,3 +2847,69 @@ li h6{
 div.ppt {
     display: none !important;
 }
+
+.portfolio-work.profile-l {
+    border-right: 1px solid #e6e6e6;
+}
+
+.portfolio-work h5 { 
+    font-weight: 400;
+    border-bottom: 1px solid #3B5998;
+    padding-bottom: 5px;
+}
+
+.portfolio-work .portfolio_content {
+    padding: 0px 20px;
+}
+
+.portfolio-work.profile-r .portfolio_content {
+    padding-right: 40px;
+}
+
+.portfolio-work .work-img {
+    background-size: 300px 200px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+    /* margin-left: 20px; */
+}
+
+.portfolio-work .work-img.portal {
+    background: url("/images/portfolio/appacitive-portal.png") no-repeat;
+}
+
+.portfolio-work .work-img.appyoda {
+    background: url("/images/portfolio/appyoda.png") no-repeat;
+}
+
+.portfolio-work .work-img.explore {
+    background: url("/images/portfolio/explore.png") no-repeat;
+}
+
+.portfolio-work .work-img.health {
+    background: url("/images/portfolio/health.png") no-repeat;
+}
+
+.portfolio-work .work-img.bookmarkit {
+    background: url("/images/portfolio/bookmarkit.png") no-repeat;
+}
+
+.portfolio-work .work-img.innventia {
+    background: url("/images/portfolio/innventia.png") no-repeat;
+}
+
+.portfolio-work .work-link { 
+    width: 300px;
+    text-align: center;
+}
+
+.portfolio-work .title_content { 
+    margin-bottom: 0px;
+}
+
+.border-bottom {
+    border: 1px solid #e6e6e6;
+    border-bottom: none;
+    margin: 15px 0px 25px;
+}
