@@ -289,8 +289,8 @@ jQuery(document).ready(function($) {
     /* ----------------------------- prettyPhoto ---------------------------- */
     /* ---------------------------------------------------------------------- */
 
-    $("a[rel^='portfolio']").prettyPhoto({
-        animation_speed: 'fast', /* fast/slow/normal */
+    /*$("a[rel^='portfolio']").prettyPhoto({
+        animation_speed: 'fast',
         social_tools: '',
         theme: 'pp_default',
         horizontal_padding: 5,
@@ -302,7 +302,7 @@ jQuery(document).ready(function($) {
                     .css('height', $('.pp_inline').height() + 50);
             }
         }
-    });
+    });*/
 
 
 
