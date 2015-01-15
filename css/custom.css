@@ -3735,15 +3735,6 @@ div.ppt {
     padding-right: 40px;
 }
 
-.portfolio-work .work-img {
-    background-size: 300px 200px;
-    height: 200px;
-    width: 300px;
-    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.05);
-    margin-top: 10px;
-    /* margin-left: 20px; */
-}
-
 .portfolio-work .work-img.portal {
     background: url("/images/portfolio/appacitive-portal.png") no-repeat;
 }
@@ -3768,6 +3759,15 @@ div.ppt {
     background: url("/images/portfolio/innventia.png") no-repeat;
 }
 
+
+.portfolio-work .work-img {
+    background-size: 100% 200px !important;
+    height: 200px;
+    width: 100%;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+    /* margin-left: 20px; */
+}
 .portfolio-work .work-link { 
     width: 300px;
     text-align: center;
