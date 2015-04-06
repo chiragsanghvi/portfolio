@@ -2883,6 +2883,14 @@ div.ppt {
     background: url("/images/portfolio/appyoda.png") no-repeat;
 }
 
+.portfolio-work .work-img.ezmove {
+    background: url("/images/portfolio/ezmove.png") no-repeat;
+}
+
+.portfolio-work .work-img.qnaappacitive {
+    background: url("/images/portfolio/qnaappacitive.png") no-repeat;
+}
+
 .portfolio-work .work-img.explore {
     background: url("/images/portfolio/explore.png") no-repeat;
 }
